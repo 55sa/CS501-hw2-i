@@ -29,7 +29,7 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.example.hw2_i.ui.theme.Hw2iTheme
+
 import java.util.Calendar
 import kotlin.random.Random
 
@@ -38,19 +38,19 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
-            Hw2iTheme {
+
 
                 //Question 1
 //               q1()
 
 
                 //Question 2
-  //              q2()
+                q2()
 
                 //Question 3
-                q3()
+         //       q3()
 
-            }
+
         }
     }
 }
@@ -180,10 +180,10 @@ fun q3() {
 @Preview(showBackground = true)
 @Composable
 fun Preview() {
-    Hw2iTheme {
+
 
     //  q1()
     //  q2()
         q3()
-    }
+
 }
